@@ -1,0 +1,20 @@
+{
+  "name": "ts-ds-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pvignau/ts-ds-boilerplate.git",
+  "author": "Pierre-Yves Vignau <vignau.py@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -A run build",
+    "build:kotlin": "yarn workspace @ts-boilerplate/kotlin run build",
+    "build:scss": "yarn workspace @ts-boilerplate/scss run build"
+  },
+  "dependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}

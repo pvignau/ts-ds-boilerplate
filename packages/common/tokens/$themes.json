@@ -1,0 +1,20 @@
+[
+  {
+    "id": "11c693f827f4f4c77f4479cd354a856409f55743",
+    "name": "theme_app",
+    "selectedTokenSets": {
+      "core": "source",
+      "colors": "enabled",
+      "app": "enabled"
+    }
+  },
+  {
+    "id": "c79a51e822a970fb580e7b8ccdc017a3a7cb767c",
+    "name": "theme_web",
+    "selectedTokenSets": {
+      "core": "source",
+      "colors": "enabled",
+      "web": "enabled"
+    }
+  }
+]
